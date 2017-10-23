@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<link href="./views/views/css/statusupload.css" rel="stylesheet">
+	</head>
+	<body>
+		<table id="uploadTable">
+			<form action="statusupload" method="POST" enctype="multipart/form-data">
+				<tr>
+					<th id="heading_row" colspan="2"><h2>Receivables Consolidation</h2></th>
+				</tr>
+				<!-- NI Upload -->
+				<tr>
+					<td>NI receivable xls</td>
+					<td><input type="file" name="NIFile" id="file" /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button name="UploadBtn" value="NIUploadBtn">Upload</button>
+						<!-- <input type="submit" name="NIUploadBtn" value="Upload" /> --></td>
+				</tr>
+				<!-- PayPal Upload -->
+				<tr>
+					<td>PayPal receivable xls</td>
+					<td><input type="file" name="PayPalFile" id="file" /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button name="UploadBtn" value="PayPalUploadBtn">Upload</button></td>
+				</tr>
+				<!-- COD Upload -->
+				<tr>
+					<td>COD receivable xls</td>
+					<td><input type="file" name="CODFile" id="file" /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button name="UploadBtn" value="CODUploadBtn">Upload</button></td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+.userMenu ul
+{
+	background-color: #FFFFFF;
+    border: 2px solid #F7BD0C;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    width: 427px;
+    list-style: none;
+    font-size: 16px;
+}
+
+.userMenu li
+{
+	display: inline;
+}
+
+.list 
+{
+	padding-left: 20px;
+    position: relative;
+    top: 10px;
+}

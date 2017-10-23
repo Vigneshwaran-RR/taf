@@ -1,0 +1,22 @@
+<div id="roles" class="roles">
+	<div class="roleMenu">
+		<ul>
+			<li class="list"> <a href="./NewRole" id="createRole"> Create New role </a></li>			
+			<li class="list"> <a href="./DeleteRoles" id="deleteRole"> Delete roles </a></li>
+			<li class="list"> <a href="./AssignRoles" id="assignRole"> Assign roles to user</a></li>
+		</ul>
+	</div>
+			<span><b/>Please Roll in the Pages Granted to the Roles</span><br/>
+			<table  class="borderDiv" id="accessPages">
+				<tr><td class="col1">Role to Access Pages</td>
+					<td class="col2">
+						<select class="choose_Role" id="choose_Role_forPage">
+							<option selected="selected">Select Role</option>
+						</select>
+					</td>
+				</tr>
+				<tr><td class="col1">Choose Pages </td>
+					<td class=""><div id="list_pages"></div></td></tr>				
+			</table><br/>
+			<button name="setPage" class="btn btn-primary btnLeft" id="assign" value="ASSIGN">ASSIGN PAGES</button>				
+</div>

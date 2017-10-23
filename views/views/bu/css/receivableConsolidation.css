@@ -1,0 +1,227 @@
+#M_image {
+	width: 170px;
+	margin: 8px 0 16px 0;
+}
+
+#dealselect {
+	display: inline;
+    float: right;
+    width: 940px;
+    margin-bottom: 15px;
+}
+
+#error_pannel{
+	display: none;
+}
+
+#dealinfopanel {
+	margin-top: 8px;
+}
+
+#dealsel_btn {
+	/*margin-top: 20px;*/
+}
+
+#btn_e2e{
+	/*margin-top: 8px;*/
+}
+
+#xCore3000Search {
+	padding-left: 14px;
+	margin-left: 161px;
+	margin-bottom: 18px;
+	margin-top: -53px;
+	width: 81%;
+	height: 57px;
+	font-size: 21px;
+	display: none;
+}
+
+#footer {
+	height: 60px;
+	background-color: #f5f5f5;
+	margin-top: 20px;
+}
+
+#btn_e2eA {
+	margin-left: 20px;
+}
+
+#logoimg {
+	float: left;
+}
+
+#searchimg {
+	margin-top: 5px;
+	margin-left: 32px;
+	width: 113px;
+	display: none;
+}
+
+#voucher_table_div {
+	width: 150%;
+}
+
+#amount_summary_div {
+	float: right;
+	width: 450px;
+	margin-top: 15px;
+}
+
+#summary_table {
+	border: 2px solid;
+	width:100%;
+	margin-bottom: 15px;
+}
+
+#summary_table tr {
+	border-bottom: 1px solid;
+}
+
+#summary_table td {
+	border-right: 1px solid;
+    padding: 8px;
+}
+
+#merchantselect {
+
+}
+
+#paymentNotes {
+	height: 110px;
+	width: 100%;
+}
+
+.filterlabel {
+	display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filterdropdown {
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 38px;
+    line-height: 1.42857;
+    padding: 8px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#orderstatusfilter_div {
+	width:25%;
+	float: left;
+}
+
+#paymentmethodfilter_div {
+	width:25%;
+	float: left;
+}
+
+#orderreceivablestatus_div {
+	width:25%;
+	float: left;
+}
+
+#voucherpaymentstatus_div {
+	width:25%;
+	float: left;
+}
+
+#paymentNotes_div {
+
+}
+
+#totalPayable {
+	color: red;
+}
+
+#PaymentStatusChange_btn {
+	height: 38px;
+	margin-left: 4px;
+}
+
+#changePaymentStatus {
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    height: 38px;
+    padding: 8px 12px;
+    margin-top: 2px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+#changePaymentStatus_div {
+	height: 23px;
+	margin-left: 15px;
+	margin-bottom: 17px;
+}
+
+#startdate_div {
+	width: 25%;
+	float: left;
+	/* height: 23px;
+	margin-left: 15px;
+	margin-bottom: 17px; */
+}
+
+#enddate_div {
+	width: 25%;
+	float: left;
+	/* height: 23px;
+	margin-left: 15px;
+	margin-bottom: 17px; */
+}
+
+#loadDealsBtn {
+	height: 38px;
+	margin-left: 4px;
+	margin-top: 25px;	
+}
+
+#selectall {
+	color:red;
+}
+
+#voucher_table_footer {
+	float: right;
+}
+
+#voucher_table_footer td {
+
+}
+
+#footer_row {
+
+}
+
+#td1 {
+	width: 19%;
+}
+
+#td2 {
+	width: 14%;
+}
+
+#td3 {
+	width: 14%;
+}
+
+#td4 {
+	width: 14%;
+}
+
+#td5 {
+	width: 8%;
+}
+
+#td6 {
+	width: 8%;
+}

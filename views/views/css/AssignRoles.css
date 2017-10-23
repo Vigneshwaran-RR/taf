@@ -1,0 +1,25 @@
+.assignroles
+{
+	height: auto;
+    width: 100%;
+    margin-top: 200px;  
+}
+.borderDiv
+{    
+	border: 2px solid #F7BD0C;
+    height: 150px;
+    width: 500px;
+    background-color: white;    
+}
+.col2 * 
+{ 
+	width: 100%;
+}
+table td 
+{
+	padding: 10px;
+}
+.btnLeft{
+	position: relative;
+	left:363px;
+}

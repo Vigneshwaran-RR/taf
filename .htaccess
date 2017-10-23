@@ -1,0 +1,20 @@
+	RewriteEngine On
+
+	RewriteRule ^views/views/ - [L,NC]
+
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteCond %{REQUEST_FILENAME} !index.php
+	RewriteRule .* - [F]
+	RewriteCond %{REQUEST_FILENAME} -d
+	RewriteRule .* - [F]
+    RewriteCond %{REQUEST_FILENAME} -l
+	RewriteRule .* - [F]
+
+    RewriteCond %{REQUEST_FILENAME} !index.php
+	RewriteRule ^logout$ index.php?action=logout [L]
+
+    RewriteCond %{REQUEST_FILENAME} !index.php
+	RewriteRule (.*)/(.*) index.php?api=$1&method=$2 [QSA,L]
+
+    RewriteCond %{REQUEST_FILENAME} !index.php
+	RewriteRule (.*) index.php?page=$1 [QSA,L]

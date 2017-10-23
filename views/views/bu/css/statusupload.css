@@ -1,0 +1,19 @@
+#uploadTable {
+	border:1px solid;
+	margin: 0px auto;
+	padding: 4px;
+}
+
+#heading_row {
+	text-align: center;
+	-moz-column-span: 4;	
+}
+
+#uploadTable tr {
+	border: 1px solid;	
+}
+
+#uploadTable td {
+	border: 1px solid;
+	padding: 8px;
+}

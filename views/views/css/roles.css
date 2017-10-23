@@ -1,0 +1,60 @@
+.roles
+{
+	height: auto;
+    width: 100%;
+    margin-top: 200px;   
+
+}
+.addRole { background-color: #ECF0F1; }
+
+.borderDiv
+{    
+	background-color: #FFFFFF;
+    border: 2px solid #F7BD0C;
+    height: auto;
+    margin-top: 50px;
+    width: 805px;
+
+}
+table td
+{
+	padding:10px;
+}
+
+.choose_Role 
+{ 
+	
+}
+ 
+.btnLeft
+{
+	left: 357px;
+    position: relative;
+}
+
+.col2 * 
+{ 
+	width: 100%;
+}
+
+.roleMenu {
+	position: relative;
+	top:-20px;
+	left: 400px;
+}
+
+.roleMenu li
+{
+	display: inline;
+	
+}
+
+.list 
+{
+	padding-left: 20px;
+    position: relative;
+    top: 10px;
+}
+.roleMenu ul {
+	    list-style: none; 	    
+}

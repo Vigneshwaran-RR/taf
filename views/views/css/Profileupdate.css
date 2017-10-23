@@ -1,0 +1,468 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ #page-wrapper {
+   position: relative;
+   width: 1486px;
+   /* centers the document */
+   margin: 0 auto;
+   /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+   overflow: hidden;
+   height: 1158px;
+   top:100px;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 1486px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .navbar {
+   width: 1488px;
+   height: 96px;
+   position: absolute;
+   top: -6px;
+   left: -2px;
+ }
+ #absolute-wrapper .navbar .navbar-inner {
+   background: #205081;
+   height: 96px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ #absolute-wrapper li.li-1 {
+   height: 42px;
+ }
+ #absolute-wrapper li {
+   position: absolute;
+ }
+ #absolute-wrapper li.li-2 {
+   top: 38px;
+ }
+ #absolute-wrapper li.li-3 {
+   width: 78px;
+   left: 1397px;
+ }
+ #absolute-wrapper .li-1.li-2.li-3 a {
+   color: #ffffff;
+   font-size: 18px;
+ }
+ #absolute-wrapper .li-1.li-2.li-4 {
+   width: 130px;
+   left: 1240px;
+ }
+ #absolute-wrapper .li-1.li-2.li-4 a {
+   font-size: 18px;
+   color: #ffffff;
+ }
+ #absolute-wrapper .li-1.li-2.li-5 {
+   width: 72px;
+   left: 1152px;
+ }
+ #absolute-wrapper .li-1.li-2.li-5 a {
+   font-size: 18px;
+   color: #ffffff;
+ }
+ #absolute-wrapper .li-2.li-6 {
+   width: 69px;
+   height: 33px;
+   left: 1062px;
+ }
+ #absolute-wrapper .li-2.li-6 a {
+   font-size: 18px;
+   color: #ffffff;
+ }
+ #absolute-wrapper .brand {
+   color: #ffffff;
+   font-size: 33px;
+   width: 122px;
+   height: 40px;
+   position: absolute;
+   top: 38px;
+   left: 11px;
+ }
+ #absolute-wrapper .alert {
+    background-color: #FCF8E3;
+    font-size: 17px;
+    height: 52.5px;
+    left: 21px;
+    position: absolute;
+    top: 100px;
+    width: 407.5px;
+ }
+ #absolute-wrapper .icon.icon-bell {
+   color: #c7973b;
+   font-size: 24px;
+   height: 24px;
+   width: 26px;
+   position: absolute;
+   top: 115px;
+   left: 32px;
+ }
+ #title {
+    color: #000000;
+    font-family: "arial";
+    font-size: 21px;
+    height: 40px;
+    left: 21px;
+    position: absolute;
+    text-shadow: 0 1px 2px rgba(74, 28, 28, 0);
+    top: 170px;
+    width: 333px;
+ }
+ #absolute-wrapper .well {
+   padding: 2px;
+   width: 675.5px;
+   height: 53.5px;
+   position: absolute;
+   left: 21px;
+ }
+ #absolute-wrapper .well.well-1 {
+   top: 206px;
+ }
+ #absolute-wrapper .well.well-1 .icon.icon-save {
+   color: #10a0ec;
+   font-size: 51px;
+   height: 51px;
+   width: 68px;
+ }
+ #absolute-wrapper .well.well-1 .icon.icon-remove-circle {
+   color: #1eaeee;
+   font-size: 51px;
+   height: 51px;
+   width: 68px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign {
+   color: #eb3b1c;
+   position: absolute;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1 {
+   font-size: 34px;
+   width: 34px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-2 {
+   height: 37px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-3 {
+   left: 669px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-4 {
+   left: 670px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-5 {
+   left: 668px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-6 {
+   top: 287px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign {
+   color: #a3ad15;
+   font-size: 33px;
+   height: 34px;
+   width: 33px;
+   position: absolute;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-1 {
+   left: 635px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-2 {
+   left: 636px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-3 {
+   left: 634px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-4 {
+   top: 287px;
+ }
+ #absolute-wrapper .span4 {
+   width: 370px;
+   height: 321px;
+   top: 287px;
+   left: 732px;
+ }
+ #absolute-wrapper input.textinput.textinput-1 {
+   width: 325.5px;
+ }
+ #absolute-wrapper input.textinput.textinput-2 {
+   height: 27.5px;
+ }
+ #absolute-wrapper input.textinput {
+   position: absolute;
+ }
+ #absolute-wrapper input.textinput.textinput-3 {
+   left: 275px;
+ }
+ #absolute-wrapper input.textinput.textinput-4 {
+   left: 276px;
+ }
+ #absolute-wrapper input.textinput.textinput-5 {
+   height: 28.5px;
+ }
+ #absolute-wrapper input.textinput.textinput-6 {
+   top: 287px;
+ }
+ #absolute-wrapper .control-label {
+   font-family:"arial";
+   font-size: 17px;
+   color: #837b7b;
+   position: absolute;
+   left: 21px;
+ }
+ #absolute-wrapper .control-label.control-label-1 {
+   height: 24px;
+ }
+ #absolute-wrapper .control-label.control-label-2 {
+   width: 159px;
+ }
+ #absolute-wrapper .control-label.control-label-3 {
+   width: 203px;
+ }
+ #absolute-wrapper .control-label.control-label-4 {
+   width: 117px;
+   top: 291px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-5 {
+   width: 120px;
+   top: 335px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-3.icon-remove-sign-7 {
+   top: 337px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-1.icon-ok-sign-5 {
+   top: 337px;
+ }
+ #absolute-wrapper input.textinput-1.textinput-2.textinput-4.textinput-7 {
+   top: 337px;
+ }
+ #absolute-wrapper input.textinput-1.textinput-4.textinput-5.textinput-8 {
+   top: 385px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-4.icon-remove-sign-8 {
+   height: 35px;
+   top: 388px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-2.icon-ok-sign-6 {
+   top: 388px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-6 {
+   width: 141px;
+   top: 394px;
+ }
+ #absolute-wrapper input.textinput-1.textinput-4.textinput-5.textinput-9 {
+   top: 435px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-3.icon-remove-sign-9 {
+   top: 437px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-1.icon-ok-sign-7 {
+   top: 437px;
+ }
+ #absolute-wrapper .control-label.control-label-7 {
+   width: 169px;
+   height: 28px;
+   top: 445px;
+ }
+ #absolute-wrapper input.textinput-1.textinput-2.textinput-4.textinput-10 {
+   top: 486px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-3.icon-remove-sign-10 {
+   top: 488px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-1.icon-ok-sign-8 {
+   top: 488px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-8 {
+   width: 130px;
+   top: 498px;
+ }
+ #absolute-wrapper input.textinput-1.textinput-2.textinput-11 {
+   top: 540px;
+   left: 274px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-4.icon-remove-sign-11 {
+   top: 542px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-2.icon-ok-sign-9 {
+   top: 542px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-9 {
+   width: 156px;
+   top: 552px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-3.icon-remove-sign-12 {
+   top: 592px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-1.icon-ok-sign-10 {
+   top: 592px;
+ }
+ #absolute-wrapper input.textinput-1.textinput-2.textinput-3.textinput-12 {
+   top: 592px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-2.control-label-10 {
+   top: 602px;
+ }
+ #absolute-wrapper input.textinput-2.textinput-3.textinput-13 {
+   width: 322.5px;
+   top: 644px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-4.icon-remove-sign-13 {
+   top: 646px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-2.icon-ok-sign-11 {
+   top: 646px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-2.control-label-11 {
+   top: 654px;
+ }
+ #absolute-wrapper input.textinput-2.textinput-3.textinput-14 {
+   width: 320.5px;
+   top: 697px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-3.icon-remove-sign-14 {
+   top: 701px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-1.icon-ok-sign-12 {
+   top: 701px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-2.control-label-12 {
+   top: 702px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-5.icon-remove-sign-15 {
+   font-size: 35px;
+   height: 38px;
+   width: 35px;
+   top: 746px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-3.icon-ok-sign-13 {
+   top: 746px;
+ }
+ #absolute-wrapper .radio {
+   font-size: 16px;
+   color: #8e8282;
+   width: 34px;
+   position: absolute;
+ }
+ #absolute-wrapper .radio.radio-1 {
+   height: 23px;
+   top: 750px;
+   left: 278px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-13 {
+   width: 188px;
+   top: 751px;
+ }
+ #absolute-wrapper .radio.radio-2 {
+   height: 20px;
+   top: 752px;
+   left: 352px;
+ }
+ #absolute-wrapper input.textinput-2.textinput-15 {
+   width: 323.5px;
+   top: 789px;
+   left: 272px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-5.icon-remove-sign-16 {
+   top: 794px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-3.icon-ok-sign-14 {
+   top: 794px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-2.control-label-14 {
+   top: 802px;
+ }
+ #absolute-wrapper textarea {
+   height: 69.5px;
+   position: absolute;
+ }
+ #absolute-wrapper textarea.textarea-1 {
+   width: 323.5px;
+   top: 843px;
+   left: 272px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-3.icon-remove-sign-17 {
+   top: 844px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-1.icon-ok-sign-15 {
+   top: 844px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-3.control-label-15 {
+   top: 844px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-3.control-label-16 {
+   top: 863px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-18 {
+   top: 938px;
+   left: 666px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-16 {
+   top: 938px;
+   left: 632px;
+ }
+ #absolute-wrapper textarea.textarea-2 {
+   width: 320.5px;
+   top: 938px;
+   left: 275px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-3.control-label-17 {
+   top: 942px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-3.control-label-18 {
+   top: 960px;
+ }
+ #absolute-wrapper input.textinput-4.textinput-16 {
+   width: 221.5px;
+   height: 20.5px;
+   top: 1031px;
+ }
+ #absolute-wrapper .control-label.control-label-1.control-label-3.control-label-19 {
+   top: 1032px;
+ }
+ #absolute-wrapper .icon.icon-remove-sign.icon-remove-sign-1.icon-remove-sign-2.icon-remove-sign-5.icon-remove-sign-19 {
+   top: 1033px;
+ }
+ #absolute-wrapper .icon.icon-ok-sign.icon-ok-sign-3.icon-ok-sign-17 {
+   top: 1033px;
+ }
+ #absolute-wrapper .icon.icon-upload-alt {
+   font-size: 32px;
+   color: #1967db;
+   height: 35px;
+   width: 32px;
+   position: absolute;
+   top: 1034px;
+   left: 531px;
+ }
+ #absolute-wrapper .icon.icon-trash {
+   color: #1967db;
+   font-size: 32px;
+   height: 35px;
+   width: 32px;
+   position: absolute;
+   top: 1034px;
+   left: 570px;
+ }
+ #absolute-wrapper .well.well-2 {
+   top: 1082.5px;
+ }
+ #absolute-wrapper .well.well-2 .icon.icon-save {
+   color: #10a0ec;
+   font-size: 51px;
+   height: 51px;
+   width: 68px;
+ }
+ #absolute-wrapper .well.well-2 .icon.icon-remove-circle {
+   color: #1eaeee;
+   font-size: 51px;
+   height: 51px;
+   width: 68px;
+ }

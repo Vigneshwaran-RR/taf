@@ -1,0 +1,14 @@
+.pageDiv
+{
+	background-color: #FFFFFF;
+    border: 2px solid #F7BD0C;
+    height: 219px;
+    position: absolute;
+    top: 340px;
+    width: 500px;
+}
+
+.col2 * 
+{ 
+	width: 100%;
+}
