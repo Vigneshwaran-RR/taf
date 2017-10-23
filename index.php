@@ -1,7 +1,7 @@
 <?php
-
+error_reporting(E_ALL);
 include "classes/init.php";
-require "../base_config.php";
+//require "../base_config.php";
 
 $homepage 		= $eventus_tix_base_url."/organizer/event_organizer_list";
 $user_homepage 	= $eventus_tix_base_url."/organizer/user_home";

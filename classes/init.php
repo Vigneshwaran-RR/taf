@@ -1,7 +1,7 @@
 <?php
 
-require "../base_config.php";
-// define("BASEURL", 'http://dev.dealgobbler.com/mbi/mymbi');
+//require "../base_config.php";
+
 define("BASEURL", $eventus_tix_base_path.'/organizer'); 
 define("LANDINGPAGE", BASEURL . '/signin');
 define("SIGNINPAGE", BASEURL . '/signin');

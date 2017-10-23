@@ -1,6 +1,5 @@
 <?php
 
-require_once "api/MerchantInfo.php";
 ob_start();
 
 class Authorizer

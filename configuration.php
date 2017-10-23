@@ -7,6 +7,6 @@ class CONFIG
 	//const DBPASSWORD = "tafpass";
 	//const DBNAME = "taf";
 	const DBUSERNAME = "root";
-	const DBPASSWORD = "";
-	const DBNAME = "eventus_tix";
+	const DBPASSWORD = "mysql";
+	const DBNAME = "demo";
 }
